@@ -1,0 +1,35 @@
+{
+  "name": "engine-fail",
+  "bin": {
+    "engine-fail": "bin/engine-fail.js"
+  },
+  "dependencies": {
+    "semver": "^5.1.0"
+  },
+  "engines": {
+    "node": "0.10.0"
+  },
+  "description": "Prevent users from installing your package on an unsupported version of node.",
+  "version": "0.1.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samccone/engine-fail.git"
+  },
+  "keywords": [
+    "engine",
+    "engines",
+    "strict",
+    "lock"
+  ],
+  "author": "Sam Saccone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samccone/engine-fail/issues"
+  },
+  "homepage": "https://github.com/samccone/engine-fail#readme"
+}
